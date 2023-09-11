@@ -1,0 +1,122 @@
+/* ********************************************** General Styling ********************************************** */
+
+:root{
+    --font-def:'Poppins', sans-serif;
+    --color-x: #31C3BD;
+    --color-o: #F2B137;
+    --bg-main: #1A2B33;
+    --font-color-def: #A9BEC8;
+    --gird-color: #1E3640;
+    --font-size-def: 1.5rem;
+    --margin-def: 1.5rem;
+    --border-radius: 1rem;
+}
+
+*, *::before, *::after{
+    font-family: var(--font-def);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-main);
+}
+
+/* TODO: REMEMBER TO DELETE THIS */
+.hide{
+    display: none !important;
+}
+/* ********************************************** Start Screen Styling ********************************************** */
+.start-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title{
+    font-size: var(--font-size-def);
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x{
+    width: 3rem;
+}
+
+.pick-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem 1.5rem;
+    background-color: var(--gird-color);
+    border-radius: var(--border-radius);
+    box-shadow: 9px 9px 6px var(--color-o), -16px -9px 6px var(--color-x);
+}
+
+.pick{
+    font-weight: 600;
+    color: var(--font-color-def);
+    font-size: var(--font-size-def);
+}
+
+.selection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-color: var(--bg-main);
+    padding: .5rem 1rem;
+    border-radius: var(--border-radius);
+}
+
+.selection-btn{
+    padding: .5rem 5rem;
+    font-size: 4rem;
+    font-weight: 900;
+    background-color: rgba(0, 0, 0, 0);
+    border:none;
+    color: var(--font-color-def);
+    cursor: pointer;
+}
+
+.selected{
+    background-color: var(--font-color-def);
+    color: var(--gird-color);
+    border-radius: var(--border-radius);
+}
+
+.reminder{
+    margin-top: var(--margin-def);
+    color: var(--font-color-def);
+    font-size: 1.2rem;
+    opacity: .6;
+    letter-spacing: 1px;
+}
+
+.start-game{
+    margin-top: var(--margin-def);
+    background-color: var(--color-o);
+    font-size: var(--font-size-def);
+    letter-spacing: 1px;
+    padding: .5rem 6rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* ********************************************** Main Screen Styling ********************************************** */
+.main-screen{
+    
+}

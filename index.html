@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="outermost-container">
+        <div class="start-screen hide">
+            <p class="title">
+                <img src="/tictactoe/assets/211651_close_round_icon.svg" alt="" class="x">
+                <img src="/tictactoe/assets/9111026_circle_icon.svg" alt="" class="o">
+            </p>
+            <div class="pick-sign">
+                <p class="pick">PICK PLAYER 1's SIGN</p>
+                <div class="selection">
+                    <button class="btn selection-btn selected">X</button>
+                    <button class="btn selection-btn">O</button>
+                </div>
+                <p class="reminder">REMEMBER: X GOES FIRST</p>
+            </div>
+            <button class="btn start-game">START GAME</button>
+        </div>
+        <main class="main-screen">
+            <div class="upper-container">
+                <p class="title"><span class="x">X</span><span class="o">O</span></p>
+                <p class="turn">X TURN</p>
+                <button><img src="/tictactoe/assets/icons8-restart-24.png" alt=""></button>
+            </div>
+            <div class="board">
+                <!-- The game board goes here -->
+            </div>
+            <div class="score">
+                <div class="player-x">
+                    <p>PLAYER X</p>
+                    <p>0</p>
+                </div>
+                <div class="ties">
+                    <p>TIES</p>
+                    <p>0</p>
+                </div>
+                <div class="player-o">
+                    <p>PLAYER O</p>
+                    <p>0</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
