@@ -8,7 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="icon" href="/tictactoe/assets/tic-tac-toe.svg" type="image/icon type">
+    <title>TicTacToe</title>
 </head>
 <body>
     <div class="outermost-container">
@@ -29,25 +30,37 @@
         </div>
         <main class="main-screen">
             <div class="upper-container">
-                <p class="title"><span class="x">X</span><span class="o">O</span></p>
+                <p class="title">
+                    <img src="/tictactoe/assets/211651_close_round_icon.svg" alt="" class="x">
+                    <img src="/tictactoe/assets/9111026_circle_icon.svg" alt="" class="o">
+                </p>
                 <p class="turn">X TURN</p>
-                <button><img src="/tictactoe/assets/icons8-restart-24.png" alt=""></button>
+                <button class="btn reset"><img src="/tictactoe/assets/icons8-restart-24.png" alt=""></button>
             </div>
             <div class="board">
                 <!-- The game board goes here -->
+                <div class="grid 1"></div>
+                <div class="grid 2"></div>
+                <div class="grid 3"></div>
+                <div class="grid 4"></div>
+                <div class="grid 5"></div>
+                <div class="grid 6"></div>
+                <div class="grid 7"></div>
+                <div class="grid 8"></div>
+                <div class="grid 9"></div>
             </div>
-            <div class="score">
-                <div class="player-x">
-                    <p>PLAYER X</p>
-                    <p>0</p>
+            <div class="score-container">
+                <div class="section player-x">
+                    <p class="score-condition">PLAYER X</p>
+                    <p class="score">0</p>
                 </div>
-                <div class="ties">
-                    <p>TIES</p>
-                    <p>0</p>
+                <div class="section ties">
+                    <p class="score-condition">TIES</p>
+                    <p class="score">0</p>
                 </div>
-                <div class="player-o">
-                    <p>PLAYER O</p>
-                    <p>0</p>
+                <div class="section player-o">
+                    <p class="score-condition">PLAYER O</p>
+                    <p class="score">0</p>
                 </div>
             </div>
         </main>
