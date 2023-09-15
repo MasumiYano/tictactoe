@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="outermost-container">
-        <div class="start-screen hide">
+        <div class="start-screen">
             <p class="title">
                 <img src="/tictactoe/assets/211651_close_round_icon.svg" alt="" class="x">
                 <img src="/tictactoe/assets/9111026_circle_icon.svg" alt="" class="o">
@@ -21,19 +21,20 @@
             <div class="pick-sign">
                 <p class="pick">PICK PLAYER 1's SIGN</p>
                 <div class="selection">
-                    <button class="btn selection-btn selected">X</button>
-                    <button class="btn selection-btn">O</button>
+                    <button class="btn selection-btn selected x-sign">X</button>
+                    <button class="btn selection-btn o-sign">O</button>
                 </div>
                 <p class="reminder">REMEMBER: X GOES FIRST</p>
             </div>
             <button class="btn start-game">START GAME</button>
         </div>
-        <main class="main-screen">
+        <main class="main-screen hide">
             <div class="upper-container">
                 <p class="title">
                     <img src="/tictactoe/assets/211651_close_round_icon.svg" alt="" class="x">
                     <img src="/tictactoe/assets/9111026_circle_icon.svg" alt="" class="o">
                 </p>
+                <!-- TODO: REMOVE THIS TURN!!!! -->
                 <p class="turn">X TURN</p>
                 <button class="btn reset"><img src="/tictactoe/assets/icons8-restart-24.png" alt=""></button>
             </div>

@@ -66,6 +66,8 @@ p{
     background-color: var(--gird-color);
     border-radius: var(--border-radius);
     box-shadow: 9px 9px 6px var(--color-o), -16px -9px 6px var(--color-x);
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 .pick{
