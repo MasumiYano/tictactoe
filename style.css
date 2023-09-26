@@ -213,3 +213,12 @@ p{
     background-color: var(--color-o);
 }
 
+.hoverX{
+    background: url(/assets/hoverX.svg);
+    background-size: cover; 
+}
+
+.hoverO{
+    background: url(/assets/211651_close_round_icon.svg);
+    background-size: cover;
+}
