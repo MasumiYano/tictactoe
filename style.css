@@ -203,6 +203,7 @@ p{
 .score{
     font-weight: 900;
     color: #222;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .ties{
